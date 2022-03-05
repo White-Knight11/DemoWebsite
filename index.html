@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Manager</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!--- The sidebar -->
+    <div class="sidebar">
+        <a class="active" href="#home">Home</a>
+        <a href="#create">create task</a>
+        <a href="#update">update task</a>
+        <a href="#view">view</a>
+    </div>
+
+
+
+    <div id="div1">
+        <div id="subdiv1">
+            <h1>
+                <center><br><br> Task Manager
+                </center>
+            </h1>
+        </div>
+    </div>
+    <div id="div2">
+        <div id="searchWrapper">
+            Search <br>
+            <input type="text" ,name="searchBar" ,id="searchBar" ,placeholder="search for a character">
+        </div>
+        <ul id="charactersList"></ul>
+
+
+        <center>
+            <div class="whitebox" draggable="true">
+                Create task <br>
+                <a href="https://devza.com/tests/tasks/create"></a>
+                <img src="create task.png" alt="image">
+            </div>
+            <div class="whitebox" draggable="true">
+                update task <br>
+                <a href="https://devza.com/tests/tasks/update"></a>
+                <img src="update1.png" alt="image">
+            </div>
+            <div class="whitebox" draggable="true">
+                view task <br> <br> <br>
+                <img src="view.png" alt="image">
+            </div>
+        </center>
+        <center>
+            <div class="imgbox">
+                delete task
+                <a href="https://devza.com/tests/tasks/delete"></a>
+            </div>
+        </center>
+    </div>
+</body>
+<script src="search and drag.js"></script>
+
+</html>
